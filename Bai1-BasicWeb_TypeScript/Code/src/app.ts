@@ -15,5 +15,13 @@ function greeter(person : Person) {
 }
 
 var user = new Student("Trang", "Quang", "Huynh");
+var { firstName } = user;
+var copy = {    
+    ...user,
+    firstName: 'huhu'
+};
 
-document.body.innerHTML = greeter(user);
+var array = [1,2,3];
+var [first, ...rest] = array;
+
+document.body.innerHTML = greeter(copy);
