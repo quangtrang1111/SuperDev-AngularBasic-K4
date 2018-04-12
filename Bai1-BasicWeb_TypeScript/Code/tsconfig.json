@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "target": "es3",
+    "module": "system",
+    "outFile": "src/app.js"
   },
   "include": [
     "src/**/*.ts"
