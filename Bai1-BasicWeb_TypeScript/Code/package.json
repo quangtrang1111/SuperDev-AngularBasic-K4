@@ -1,0 +1,13 @@
+{
+  "name": "typescript-website",
+  "version": "0.0.1",
+  "author": "Quang Trang",
+  "private": true,
+  "scripts": {
+    "build": "tsc --watch"
+  },
+  "dependencies": {
+    "typescript": "^2.8.1"
+  },
+  "description": "An Ionic project"
+}
